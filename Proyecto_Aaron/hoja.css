@@ -168,6 +168,7 @@ div.index {
 }
 .index a,.index a:visited{
 	color: lightcyan;
+    target: _top;
 }
 
 .index a:hover {
