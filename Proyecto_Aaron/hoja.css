@@ -190,7 +190,10 @@ div.index {
 #listas{
     
 }
-
+#menuDesplegable {
+    display: none;
+    background-color: blue;
+}
 /*Ejemplos de estilos CSS en la pagina CSS*/
 p.colorhtml {
 	color: red;
