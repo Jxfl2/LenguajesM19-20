@@ -12,6 +12,13 @@
         margin-right: 20%;
     }
 }
+body {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
 p {
 	margin-left: 10px;
 	margin-right: 10px;
@@ -51,8 +58,6 @@ div.arriba {
     position: fixed;
     height: 30px;
     width: 30px;
-    /*top: 95%;
-    left: 96%;*/
     right: 3%;
     bottom: 2%;
 }
@@ -63,7 +68,7 @@ div.menu {
     padding-top: 7px;
     padding-bottom: 7px;
     position: sticky;
-    top: 20px;
+    top: 0;
 }
 span.botonMenu {
     display: inline-block;
@@ -177,6 +182,7 @@ div.index {
 	padding: 5px;
 }
 
+
 /*ID*/
 #linkcolor{
     
@@ -190,9 +196,24 @@ div.index {
 #listas{
     
 }
+/*Menu desplegable*/
 #menuDesplegable {
-    display: none;
-    background-color: blue;
+    display: block;
+    background-color: #c2c2c2;
+    /*overflow-y: scroll;*/
+    width: 40%;
+    /*height: 200px;*/
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    
+}
+div.elementos {
+    background-color: #f1f1f1;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
 }
 /*Ejemplos de estilos CSS en la pagina CSS*/
 p.colorhtml {
