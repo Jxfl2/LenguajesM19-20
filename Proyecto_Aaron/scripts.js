@@ -1,9 +1,8 @@
-
-function mostrarMenu () {
-    if(document.getElementById("menuDesplegable").display == "none"){
-        document.getElementById("menuDesplegable").display = "block";
+function mostrarMenu() {
+    if(document.getElementById("menuDesplegable").style.display == "none"){
+        document.getElementById("menuDesplegable").style.display = "block";
     } else {
-        document.getElementById("menuDesplegable").display = "none";
+        document.getElementById("menuDesplegable").style.display = "none";
     }
 } 
 

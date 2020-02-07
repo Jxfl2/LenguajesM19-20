@@ -86,7 +86,7 @@ span.botonHome {
     display: inline-block;
     margin-left: 150px;
 }
-div.menu a, div.menu a:active, div.menu a:visited {
+div.menu a, div.menu a:visited {
     text-decoration: none;
     color: #f1f1f1;
     padding-left: 6px;
@@ -97,6 +97,15 @@ div.menu a:hover{
     background-color: #f1f1f1;
     text-decoration: none;
     color: #5f5f5f;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 4px;
+    display: inline-block;
+}
+div.menu a:active {
+    background-color: #5f5f5f;
+    text-decoration: none;
+    color: #f1f1f1;
     padding-left: 6px;
     padding-right: 6px;
     border-radius: 4px;
@@ -198,7 +207,7 @@ div.index {
 }
 /*Menu desplegable*/
 #menuDesplegable {
-    display: block;
+    display: none;
     background-color: #c2c2c2;
     /*overflow-y: scroll;*/
     width: 40%;
@@ -207,13 +216,44 @@ div.index {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     position: absolute;
+    transition: opacity 1s, display 1s;
     
 }
+
 div.elementos {
     background-color: #f1f1f1;
     margin-right: 2%;
     margin-left: 2%;
+    margin-bottom: 4px;
+    margin-top: 4px;
     border-radius: 10px;
+}
+div.elementos:active{
+    background-color: #424242;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+div.elementos a, div.elementos a:hover, div.elementos a:visited {
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 5%;
+    width: 95%;
+    color: black;
+    font-family: 'Cinzel', verdana;
+    display: inline-block;
+}
+div.elementos a:active {
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 5%;
+    width: 95%;
+    color: #f1f1f1;
+    
+    font-family: 'Cinzel', verdana;
+    display: inline-block;
 }
 /*Ejemplos de estilos CSS en la pagina CSS*/
 p.colorhtml {
