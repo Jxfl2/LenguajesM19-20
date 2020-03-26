@@ -1,0 +1,81 @@
+body{
+    background-image: url(multimedia/fondo1.jpeg);
+}
+div.principal{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+div.encabezado {
+    background-color: black;
+    border:5px solid red;
+    padding: 0px;
+    font-family: Starjedi;
+    font-size: 25px;
+    text-align: center;
+    color: yellow;
+}
+div.encabezado p{
+    padding: 0px;
+    margin: 5px;
+}
+div.cuerpo {
+    background-color: black;
+    border:5px solid red;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: justify;
+}
+div.cuerpo p{
+    padding: 0px;
+    margin: 0px;
+}
+div.cuerpo h1{
+    font-family: Starjedi;
+}
+div.contenedor{
+    margin-top: 10px;
+}
+div.notaizquierda{
+    border:5px solid red;
+    /*margin-right: 25px;*/
+    /*width: 290px;*/
+    background-color: black;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: inline-block;
+}
+div.notaderecha{
+    border:5px solid red;
+    /*width: 1025px;*/
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+div.tabla{
+    padding: 30px;
+    display: inline-block;
+}
+div.tabla table, div.tabla td {
+    border: 1px solid white;
+}
+div.tabla table caption{
+    font-family: Starjedi;
+    text-align: left;
+}
+div.imagenes{
+    display: inline-block;
+}
+
+
+
+/*Declaracion de fuentes*/
+@font-face {
+    font-family: Starjedi;
+    src: url("fuentes/Starjedi.ttf")
+}
+/*@font-face {
+    font-family: Starjout;
+    src: url("fuentes/Starjout.ttf")
+}*/
