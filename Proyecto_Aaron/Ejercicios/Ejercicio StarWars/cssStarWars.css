@@ -1,5 +1,12 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url(multimedia/fondo1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
 }
 div.principal{
     margin-left: 2%;
@@ -27,7 +34,6 @@ div.cuerpo {
     text-align: justify;
 }
 div.cuerpo p{
-    padding: 0px;
     margin: 0px;
 }
 div.cuerpo h1{
@@ -35,27 +41,33 @@ div.cuerpo h1{
 }
 div.contenedor{
     margin-top: 10px;
+    overflow: auto;
 }
 div.notaizquierda{
-    border:5px solid red;
-    /*margin-right: 25px;*/
-    /*width: 290px;*/
+    float: left;
+    margin-right: 25px;
+    width: 20%;
+    height: 491px;
+    border: 5px solid red;
     background-color: black;
     color: yellow;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    display: inline-block;
+}
+div.notaizquierda p {
+    margin: 10px;
 }
 div.notaderecha{
-    border:5px solid red;
-    /*width: 1025px;*/
+    float: right;
+    border: 5px solid red;
+    width: 75%;
     background-color: black;
     color: white;
-    display: inline-block;
+    overflow: auto;
 }
 div.tabla{
     padding: 30px;
-    display: inline-block;
+    float: left;
 }
 div.tabla table, div.tabla td {
     border: 1px solid white;
@@ -65,10 +77,9 @@ div.tabla table caption{
     text-align: left;
 }
 div.imagenes{
-    display: inline-block;
+    float: right;
+    padding: 30px;;
 }
-
-
 
 /*Declaracion de fuentes*/
 @font-face {

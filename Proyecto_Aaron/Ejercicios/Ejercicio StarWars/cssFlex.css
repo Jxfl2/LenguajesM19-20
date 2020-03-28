@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(multimedia/fondo1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/*Bloque del encabezado*/
+.encabezado{
+    border: 5px solid red;
+    background-color: black;
+    font-family: Starjedi;
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+}
+.encabezado p{
+    margin: 5px;
+}
+
+/*Contenedor de los bloques flex*/
+.bloqueFlexPrin{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Bloque ajustado a la izquierda*/
+.bloqueIzq{
+    flex: 0 0 20%;
+    border: 5px solid red;
+    background-color: black;
+    /*margin-right: 25px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: yellow;
+    padding: 20px;
+}
+
+/*Bloque ajustado a la derecha y contenedor de dos bloques flex*/
+.bloqueDer{
+    flex: 0 0 78%;
+    border: 5px solid red;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-around;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*El contenedor de la tabla y de las imagenes*/
+.tabla{
+    padding: 10px;
+}
+.tabla table, .tabla td{
+    border: 1px solid white;
+}
+.imagenes{
+    flex: 0 0 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Los bloques que ocupan todo el cuerpo de la pagina*/
+.bloqueCompleto{
+    border: 5px solid red;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bloqueCompleto h1{
+    font-family: Starjedi;
+    font-size: 30px;
+}
+/*Prueba de responsive*/
+@media screen and (max-width:1200px){
+    .bloqueFlexPrin{
+        flex-flow: column;
+    }
+}
+/*Declaracion de fuentes*/
+@font-face {
+    font-family: Starjedi;
+    src: url("fuentes/Starjedi.ttf")
+}
