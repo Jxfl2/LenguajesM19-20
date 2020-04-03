@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0 10%;
+}
+div.titulo{
+    text-align: center;
+}
+div.contenedorG{
+    overflow: auto;
+}
+div.contenedorF{
+    overflow: auto;
+}
+
+textarea{
+    height: 200px;
+}
+/*div de la pagina principa*/
+
+div.login{
+    width: 25%;
+    margin: 0 auto;
+}
+div.login input{
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    margin-bottom: 10px;
+}
+div.login label{
+    padding: 20px 15px;
+    font-size: 20px;
+}
+div.login a,  div.login a:active, div.login a:visited{
+    width: 80%;
+    padding: 3px;
+    margin: 10px auto;
+    border: 3px solid lightblue;
+    background-color: rgb(3, 131, 211);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    box-sizing: border-box;
+}
+div.login a:hover{
+    width: 80%;
+    padding: 3px;
+    margin: 10px auto;
+    border: 3px solid rgb(3, 131, 211);
+    background-color: lightblue;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
+    box-sizing: border-box;
+}
+
+/*Formulario*/
+div.formulario{
+    width: 80%;
+    margin: 0 auto;
+}
+/*Fecha*/
+div.fecha{
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+input[type=date]{
+    width: 60%;
+    padding: 3px;
+    border: 1px solid grey;
+}
+
+/*Contenedor float a la izquierda*/
+div.izquierda{
+    float: left;
+    width: 25%;
+}
+div.izquierda label{
+    display: block;
+    padding: 12px 12px 12px 0px;
+    margin: 5px 0px;
+}
+div.izquierda p{
+    display: block;
+    padding: 12px 12px 12px 0px;
+    margin: 5px 0px;
+}
+
+/*Contenedor float a la derecha*/
+div.derecha{
+    float: left;
+    width: 75%;
+}
+div.derecha input[type=text],div.derecha select, div.derecha textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}

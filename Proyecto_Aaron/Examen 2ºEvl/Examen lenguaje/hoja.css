@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.leroy{
+    background-color: black;
+    padding: 0px 5%;
+}
+.leroy p{
+    color: white;
+    font-family: "Arial Rounded";
+    font-size: 18px;
+}
+.leroy h1{
+    color: #ffb31a;
+    font-family: "Berlin Sans FB";
+    text-align: center;
+    text-decoration: underline;
+}
+.leroy h2, .leroy h3, .leroy h4, .leroy h5, .leroy h6{
+    color: #ffb31a;
+    font-family: "Berlin Sans FB";
+    font-size: 20px;
+}
+.leroy ul, .leroy li {
+    color: #ffb31a;
+}
+.leroy a, .leroy a:hover, .leroy a:active, .leroy a:visited{
+    font-family: "Berlin Sans FB";
+    color: #ffb31a;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*apartado extra*/
+div.extra{
+    float: left;
+    width: 70%;
+    padding: 20px 5%;
+    border: 2px solid red;
+    background-color: black;
+    overflow: scroll;
+    height: 300px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.tabla{
+    float: right;
+    width: 20%;
+}
+
+/*Declaracion de fuentes*/
+@font-face {
+    font-family: "Arial Rounded";
+    src: url("arlrdbd.ttf")
+}
+@font-face {
+    font-family: "Berlin Sans FB";
+    src: url("Berlin\ Sans\ FB\ Demi\ Bold.ttf")
+}
