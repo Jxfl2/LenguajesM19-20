@@ -48,6 +48,18 @@ div.extra{
     float: right;
     width: 20%;
 }
+.tabla table{
+    border-collapse: collapse;
+}
+.tabla caption{
+    font-family: "Arial Rounded";
+    color: salmon;
+}
+.tabla table, .tabla td, .tabla th{
+    border: 2px solid red;
+    text-align: left;
+    font-family: "Berlin Sans FB";
+}
 
 /*Declaracion de fuentes*/
 @font-face {
